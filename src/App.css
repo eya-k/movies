@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+body{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background-image: url("movies.jpg");
+}
+
+.container{
+  width: 100%;
+  margin: 1em auto;
+  background-color: rgb(217, 135, 249);
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+h2{
+  background-color: antiquewhite;
+}
